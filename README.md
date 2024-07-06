@@ -8,6 +8,8 @@ Architecture Overview:
        •	Applies colors, fonts, margins, and other styles to improve readability and user experiences.
       o	OpenWeatherMap API:
        •	Provides weather data including temperature, humidity, wind speed, and weather description.
+       THE LINK TO THE PRESENTATION: https://github.com/Cathyy1212/Webstack-Portfolio-Project 
+       THE LINK TO THE VIDEO: https://youtu.be/eEpQHHXbd2o?si=0ZdqYj52RFb2L5zU
        
 
 
