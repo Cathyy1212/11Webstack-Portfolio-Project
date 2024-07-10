@@ -10,6 +10,7 @@ Architecture Overview:
        •	Provides weather data including temperature, humidity, wind speed, and weather description.
        THE LINK TO THE PRESENTATION: https://docs.google.com/presentation/d/1_nIZ1khPJWnVx4UAGC96vuN7_jUlEVF42STJaVZP7Zw/edit?usp=sharing
        THE LINK TO THE VIDEO: https://youtu.be/eEpQHHXbd2o?si=0ZdqYj52RFb2L5zU
+       THE LINK TO THE APPLICATION WEB SITE https://webstack-portfolio-project-six.vercel.app/
        
 
 
