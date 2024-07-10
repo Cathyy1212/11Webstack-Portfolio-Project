@@ -8,11 +8,11 @@ const weatherForecastEl = document.getElementById('weather-forecast');
 const currentTempEl = document.getElementById('current-temp');
 
 // Declaring array for months and days
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 // Declaring API_KE
-const API_KEY ='5570104105731cf84518cdf3b9ec4f87';
+const API_KEY ='073f2e23ea0af54688619b3f4bdf3494';
 
 // Function to get weather data and accesss current location of user
 setInterval(() => {
