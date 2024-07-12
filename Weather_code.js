@@ -38,13 +38,17 @@ function getWeatherData () {
         
         let {latitude, longitude } = success.coords;
 
-        fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude=hourly,minutely&units=metric&appid=${API_KEY}`).then(res => res.json()).then(data => {
+         fetch(`https://api.weatherapi.com/v1/current.json?key=073f2e23ea0af54688619b3f4bdf3494=MARRAKECH`).then(res => res.json()).then(data => {
 
         console.log(data)
         showWeatherData(data);
         })
-
-    })
+        .catch(error => {
+            console.error("Error fetching weather data: ", error);
+                   });
+    }, (error) => {
+        console.error("Error getting geolocation: ", error);
+    });
 }
 
 // Updating current fore-cast depending of the location
